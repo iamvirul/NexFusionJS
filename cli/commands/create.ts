@@ -12,7 +12,7 @@ export function createProject(projectName: string) {
 
   fs.mkdirSync(projectPath, { recursive: true });
 
-  console.log(`Creating a new FusionJS project in ${projectPath}`);
+  console.log(`Creating a new NexFusion project in ${projectPath}`);
 
   execSync('npm init -y', { cwd: projectPath, stdio: 'inherit' });
   execSync('npm install next react react-dom @nestjs/core @nestjs/common @nestjs/platform-express reflect-metadata rxjs tailwindcss postcss autoprefixer', { cwd: projectPath, stdio: 'inherit' });
