@@ -1,10 +1,10 @@
-# FusionJS
+# NexFusion
 
-FusionJS is a modern framework that combines the power of Next.js and NestJS, aiming to provide a seamless integration of frontend and backend development.
+NexFusion is a modern framework that combines the power of Next.js and NestJS, aiming to provide a seamless integration of frontend and backend development.
 
 ## Features
 
-- **Integration:** Built on top of Next.js and NestJS, FusionJS leverages their strengths in frontend and backend development.
+- **Integration:** Built on top of Next.js and NestJS, NexFusion leverages their strengths in frontend and backend development.
 - **CLI:** Includes a command-line interface for generating components, services, and more.
 - **Modularity:** Encourages modular architecture for scalable applications.
 - **Customizable:** Easily configurable with Tailwind CSS for styling and TypeScript for type safety.
@@ -12,7 +12,7 @@ FusionJS is a modern framework that combines the power of Next.js and NestJS, ai
 
 ## Getting Started
 
-Follow these steps to start using FusionJS:
+Follow these steps to start using NexFusion:
 
 ### Prerequisites
 
@@ -22,9 +22,9 @@ Follow these steps to start using FusionJS:
 ### Installation
 
 ```bash
-npm install fusionjs
+npm install nexfusion
 # or
-yarn add fusionjs
+yarn add nexfusion
 ```
 
 ### Usage
@@ -46,7 +46,7 @@ yarn add fusionjs
 
 3. **Open your browser:**
 
-   FusionJS will be running at `http://localhost:3000`.
+   NexFusion will be running at `http://localhost:3000`.
 
 ### Configuration
 
@@ -56,7 +56,7 @@ To customize Tailwind CSS, modify the `tailwind.config.js` file. You can adjust 
 
 #### TypeScript
 
-FusionJS uses TypeScript for enhanced type safety. Configure `tsconfig.json` as needed for your project requirements.
+NexFusion uses TypeScript for enhanced type safety. Configure `tsconfig.json` as needed for your project requirements.
 
 ### Contributing
 
@@ -68,7 +68,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Author
 
-FusionJS is developed by [Virul Nirmala Wickramasinghe](https://virul.me).
+NexFusion is developed by [Virul Nirmala Wickramasinghe](https://virul.me).
 
 ### Acknowledgments
 
@@ -78,4 +78,4 @@ FusionJS is developed by [Virul Nirmala Wickramasinghe](https://virul.me).
 
 ---
 
-Feel free to expand upon each section as needed to provide more details about specific features, advanced configurations, deployment options, and any other information relevant to users and contributors of your FusionJS framework. Adjust the content based on your project's actual structure and goals.
+Feel free to expand upon each section as needed to provide more details about specific features, advanced configurations, deployment options, and any other information relevant to users and contributors of your NexFusion framework. Adjust the content based on your project's actual structure and goals.

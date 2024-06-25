@@ -1,5 +1,5 @@
 {
-  "name": "fusionjs",
+  "name": "nexfusion",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
     "serve": "nest start",
     "cli": "ts-node-dev cli/index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["NexFusion", "nextjs", "nestjs"],
+  "author": "Virul Nirmala Wickramasinghe",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "@nestjs/common": "^10.3.9",
