@@ -2,14 +2,6 @@
 
 NexFusion is a modern framework that combines the power of Next.js and NestJS, aiming to provide a seamless integration of frontend and backend development.
 
-## Features
-
-- **Integration:** Built on top of Next.js and NestJS, NexFusion leverages their strengths in frontend and backend development.
-- **CLI:** Includes a command-line interface for generating components, services, and more.
-- **Modularity:** Encourages modular architecture for scalable applications.
-- **Customizable:** Easily configurable with Tailwind CSS for styling and TypeScript for type safety.
-- **Dark Mode:** Supports dark mode out of the box for enhanced user experience.
-
 ## Getting Started
 
 Follow these steps to start using NexFusion:
@@ -27,26 +19,38 @@ npm install nexfusion
 yarn add nexfusion
 ```
 
+### Cloning from GitHub (Temporary)
+
+Until our CLI tools and project file structure template are updated, you can clone the project directly from GitHub:
+
+```bash
+git clone https://github.com/iamvirul/NexFusionJS
+```
+
 ### Usage
 
-1. **Initialize a new project:**
+1. **Install dependencies:**
 
    ```bash
-   npx create-fusion-app my-fusion-app
-   cd my-fusion-app
-   ```
-
-2. **Start the development server:**
-
-   ```bash
-   npm run dev
+   npm install
    # or
-   yarn dev
+   yarn
    ```
+
+2. **Start both the client-side (Next.js) and server-side (NestJS) applications:**
+
+   ```bash
+   npm run start
+   # or
+   yarn start
+   ```
+
+   This command will concurrently start both the Next.js client-side application on port `3000` and the NestJS server-side application on port `3001`.
 
 3. **Open your browser:**
 
-   NexFusion will be running at `http://localhost:3000`.
+   - Next.js (client-side): `http://localhost:3000`
+   - NestJS (server-side): `http://localhost:3001`
 
 ### Configuration
 
@@ -78,4 +82,4 @@ NexFusion is developed by [Virul Nirmala Wickramasinghe](https://virul.me).
 
 ---
 
-Feel free to expand upon each section as needed to provide more details about specific features, advanced configurations, deployment options, and any other information relevant to users and contributors of your NexFusion framework. Adjust the content based on your project's actual structure and goals.
+This updated version instructs users to start both the client-side (Next.js) and server-side (NestJS) applications concurrently using a single command (`npm run start` or `yarn start`). This approach simplifies the process and ensures that both parts of NexFusion are running and accessible for development. Adjust the instructions further based on any specific configurations or updates to your project.
