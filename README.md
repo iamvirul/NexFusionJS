@@ -11,14 +11,6 @@ Follow these steps to start using NexFusion:
 - Node.js installed on your machine
 - npm or yarn package manager
 
-### Installation
-
-```bash
-npm install nexfusion
-# or
-yarn add nexfusion
-```
-
 ### Cloning from GitHub (Temporary)
 
 Until our CLI tools and project file structure template are updated, you can clone the project directly from GitHub:
