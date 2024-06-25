@@ -1,40 +1,19 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React from 'react';
+
 const HomePage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black">
-      <motion.main
-        initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="max-w-4xl mx-auto p-8 text-white text-center"
-      >
-        <motion.h1
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-4xl md:text-6xl font-bold mb-4 text-primary"
-        >
-          Welcome to FusionJS
-        </motion.h1>
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          className="text-lg md:text-xl mb-8"
-        >
-          The modern framework combining Next.js and NestJS.
-        </motion.p>
-        <motion.a
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.6 }}
+<div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-slate-900 to-slate-700">
+      <main className="max-w-4xl mx-auto p-8 text-white text-center">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to FusionJS</h1>
+        <p className="text-lg md:text-xl mb-8">The modern framework combining Next.js and NestJS.</p>
+        <p className='mb-8'>Developed by @iamvirul</p>
+        <a
           href="#"
-          className="bg-accent hover:bg-accent-100 text-white py-2 px-4 rounded-lg shadow-lg transition duration-300 ease-in-out"
+          className="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-lg shadow-lg transition duration-300 ease-in-out"
         >
           Get Started
-        </motion.a>
-      </motion.main>
+        </a>
+      </main>
     </div>
   );
 };
